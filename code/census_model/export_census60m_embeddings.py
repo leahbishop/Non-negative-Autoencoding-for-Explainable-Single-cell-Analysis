@@ -134,7 +134,7 @@ print("Filtered weight matrix shape:", W_filtered.shape, flush=True)  # (filtere
 # Save filtered weights and gene names
 print("Saving filtered weight matrix and gene names...", flush=True)
 np.save("/mnt/projects/debruinz_project/bisholea/capstone/encoder_weight_matrix_filtered_60M.npy", W_filtered)
-np.save("//mnt/projects/debruinz_project/bisholea/capstone/gene_names_filtered_60M.npy", filtered_gene_names)
+np.save("/mnt/projects/debruinz_project/bisholea/capstone/gene_names_filtered_60M.npy", filtered_gene_names)
 
 
 print("All outputs saved successfully.", flush=True)
