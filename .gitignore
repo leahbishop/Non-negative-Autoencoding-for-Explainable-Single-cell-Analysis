@@ -1,0 +1,30 @@
+# --- big data / trained artifacts (do NOT commit) ---
+*.npy
+*.npz
+*.pth
+*.pt
+*.pkl
+*.rds
+*.h5ad
+*.h5
+*.loom
+*.mtx
+*.parquet
+*.feather
+*.csv.gz
+*.tsv.gz
+
+# --- logs ---
+*.out
+*.err
+slurm-*.out
+slurm-*.err
+
+# --- python / R / system junk ---
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.Rhistory
+.RData
+.Rproj.user/
+.DS_Store
