@@ -1,4 +1,4 @@
-# Non-negative Autoencoder (NNAE) — Explainable Single-Cell Analysis
+# Non-Negative Autoencoding for Single-Cell Data
 
 This repository contains the **final training, analysis, and figure-generation code**
 used in the Non-negative Autoencoder (NNAE) project, focused on learning
